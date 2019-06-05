@@ -49,12 +49,12 @@ final class Configurations {
             return MoneroNodeDescription(uri: "tritontestnet.com:38157")
         #endif
 
-        return MoneroNodeDescription(uri: "doopool.xyz:20020")
+        return MoneroNodeDescription(uri: "sanfran.xtri.network:9231")
     }
 
     static let preDefaultNodeUri = "sanfran.xtri.network:9231"
 //    static let defaultNodeUri = "opennode.xmr-tw.org:18089"
 //    static let defaultCurreny = Currency.usd
 
-    static let donactionAddress = "43gN49UjHNdXDgkcWHTxceHNjXBxcKsReSNThGwzHVavHeZ4SSxSCPT8EpD5cbwAWqEqFQw12rsyTJbKGbeXo43SVpPXZ2W"
+    static let donactionAddress = "TvzDXTZecNADvFXxSHgegN3LYxFrQ31HMhgEtHu8pmZEKseKYq8X3n9azuGENV3KtbBupN87x2WNMQ95Mg2aRMKE11CrZzGVy"
 }

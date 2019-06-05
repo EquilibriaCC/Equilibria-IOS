@@ -350,23 +350,19 @@ final class SettingsViewController: BaseViewController<SettingsView>, UITableVie
         let links = [
             [
                 "name": "Website",
-                "link": "https://triton.network"
-            ],
-            [
-                "name": "Telegram",
-                "link": "https://t.me/tritonCommunity"
+                "link": "https://xtri.network"
             ],
             [
                 "name": "Discord",
-                "link": "https://discordapp.com/invite/67GXfD6"
+                "link": "https://discord.gg/7FWufDt"
             ],
             [
                 "name": "Reddit",
-                "link": "https://www.reddit.com/r/tritonProject"
+                "link": "https://www.reddit.com/r/TritonCurrency"
             ],
             [
                 "name": "Github",
-                "link": "https://github.com/triton-project/triton-ios-wallet"
+                "link": "https://github.com/tritonnetwork/triton-ios"
             ],
         ]
 
