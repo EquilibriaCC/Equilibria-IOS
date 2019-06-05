@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>isDefault</key>
+		<true/>
+		<key>uri</key>
+		<string>sanfran.xtri.network:9231</string>
+	</dict>
+	<dict>
+		<key>uri</key>
+		<string>sydney.xtri.network:9231</string>
+	</dict>
+	<dict>
+		<key>uri</key>
+		<string>newyork.xtri.network:9231</string>
+	</dict>
+	<dict>
+		<key>uri</key>
+		<string>amsterdam.xtri.network:9231</string>
+	</dict>
+	<dict>
+		<key>uri</key>
+		<string>india.xtri.network:9231</string>
+	</dict>
+	<dict>
+		<key>uri</key>
+		<string>tokyo.xtri.network:9231</string>
+	</dict>
+</array>
+</plist>
