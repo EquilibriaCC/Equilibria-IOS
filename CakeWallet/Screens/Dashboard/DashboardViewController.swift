@@ -5,7 +5,7 @@ import FlexLayout
 
 extension TransactionDescription: CellItem {
     func setup(cell: TransactionUITableViewCell) {
-        cell.configure(direction: direction, date: date, isPending: isPending, cryptoAmount: totalAmount, fiatAmount: "")
+        cell.configure(direction: direction, date: date, isPending: isPending, cryptoAmount: totalAmount, fiatAmount: "",confirmations: confirmations)
     }
 }
 
@@ -229,7 +229,7 @@ final class DashboardController: BaseViewController<DashboardView>, StoreSubscri
         case .startingSync:
             updateStatusstartingSync()
         case .synced:
-            updateStatusSynced()
+            updateStatusSynced(blockchainHeight: store.state.blockchainState.blockchainHeight)
         case .failed:
             updateStatusFailed()
         }
@@ -254,9 +254,9 @@ final class DashboardController: BaseViewController<DashboardView>, StoreSubscri
         contentView.rootFlexContainer.flex.layout()
     }
 
-    private func updateStatusSynced() {
+    private func updateStatusSynced(blockchainHeight: UInt64) {
         contentView.progressBar.updateProgress(100)
-        contentView.updateStatus(text: NSLocalizedString("synchronized", comment: ""))
+        contentView.updateStatus(text: NSLocalizedString("synchronized", comment: "") + " (" + String(blockchainHeight) + ")")
         contentView.hideSyncingIcon()
     }
 

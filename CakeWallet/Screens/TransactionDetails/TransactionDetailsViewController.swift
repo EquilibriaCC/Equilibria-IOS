@@ -12,7 +12,7 @@ struct TransactionDetailsCellItem: CellItem {
 }
 
 enum TransactionDetailsRows: Stringify {
-    case id, paymentId, date, amount, height, fee, exchangeID
+    case id, paymentId, date, amount, height, fee, exchangeID, confirmations
     
     func string() -> String {
         switch self {
@@ -21,13 +21,15 @@ enum TransactionDetailsRows: Stringify {
         case .paymentId:
             return NSLocalizedString("Payment ID", comment: "")
         case .date:
-            return NSLocalizedString("date", comment: "")
+            return NSLocalizedString("Date", comment: "")
         case .amount:
-            return NSLocalizedString("amount", comment: "")
+            return NSLocalizedString("Amount", comment: "")
         case .height:
-            return NSLocalizedString("height", comment: "")
+            return NSLocalizedString("Height", comment: "")
+        case .confirmations:
+            return NSLocalizedString("Confirmations", comment: "")
         case .fee:
-            return  NSLocalizedString("fee", comment: "")
+            return  NSLocalizedString("Fee", comment: "")
         case .exchangeID:
             return "Exchange ID"
         }
@@ -118,16 +120,13 @@ final class TransactionDetailsViewController: BaseViewController<TransactionDeta
         if !transactionDescription.paymentId.isEmpty && transactionDescription.paymentId != TransactionDetailsViewController.emptyPaymentId {
             items.append(TransactionDetailsCellItem(row: .paymentId, value: transactionDescription.paymentId))
         }
-        
         items.append(contentsOf: [
             TransactionDetailsCellItem(row: .date, value: dateFormatter.string(from: transactionDescription.date)),
             TransactionDetailsCellItem(row: .height, value: String(transactionDescription.height)),
             TransactionDetailsCellItem(row: .amount, value: transactionDescription.totalAmount.formatted()),
-            
+            TransactionDetailsCellItem(row: .confirmations, value: String(transactionDescription.confirmations)),
             ])
-        
         let fee = getMoneroAmount(value: transactionDescription.fee.value)
-
         if !fee.isEmpty {
             items.append(TransactionDetailsCellItem(row: .fee, value: fee))
         }

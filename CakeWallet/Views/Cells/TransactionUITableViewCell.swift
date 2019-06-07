@@ -56,26 +56,25 @@ final class TransactionUITableViewCell: FlexCell {
         }
     }
     
-    func configure(direction: TransactionDirection, date: Date, isPending: Bool, cryptoAmount: Amount, fiatAmount: String) {
+    func configure(direction: TransactionDirection, date: Date, isPending: Bool, cryptoAmount: Amount, fiatAmount: String, confirmations: UInt64) {
         let color: UIColor
         let amountPrefix: String
         var status = ""
         
         if direction == .incoming {
-            status = NSLocalizedString("receive", comment: "") // FIXME: Hardcoded value
-            color = .greenMalachite
+            status = NSLocalizedString("Received", comment: "") // FIXME: Hardcoded value
+            color = .incoming
             amountPrefix = "+"
             imageView?.image = UIImage(named: "arrow_down_bg")?.resized(to: CGSize(width: 22, height: 22))
         } else {
-            status = NSLocalizedString("sent", comment: "") // FIXME: Hardcoded value
-            color = .wildDarkBlue
+            status = NSLocalizedString("Sent", comment: "") // FIXME: Hardcoded value
+            color = .outgoing
             amountPrefix = "-"
             imageView?.image = UIImage(named: "arrow_up_bg")?.resized(to: CGSize(width: 22, height: 22))
         }
         
-        
-        if isPending {
-            status += " (" +  NSLocalizedString("pending", comment: "") + ")"
+        if(confirmations <= 10){
+            status += " (" +  NSLocalizedString("Confirmations: ", comment: "") + String(confirmations) + ")"
         }
         
         let dateFormatter = DateFormatter()

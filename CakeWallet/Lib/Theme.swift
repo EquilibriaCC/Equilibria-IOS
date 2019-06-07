@@ -84,7 +84,7 @@ enum Theme: String {
     }
 
     var progressBar: ProgressBarScheme {
-        return ProgressBarScheme(value: .greenMalachite, background: .tritonBlack40)
+        return ProgressBarScheme(value: .incoming, background: .tritonBlack40)
     }
 
     var tableCell: CellColorScheme {

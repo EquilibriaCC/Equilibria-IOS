@@ -75,6 +75,7 @@ public struct TransactionDescription {
     public let direction: TransactionDirection
     public let priority: TransactionPriority
     public let status: TransactionStatus
+    public let confirmations: UInt64
     public let isPending: Bool
     public let height: UInt64
     public let paymentId: String
@@ -87,6 +88,7 @@ public struct TransactionDescription {
         direction: TransactionDirection,
         priority: TransactionPriority,
         status: TransactionStatus,
+        confirmations: UInt64,
         isPending: Bool,
         height: UInt64,
         paymentId: String) {
@@ -97,6 +99,7 @@ public struct TransactionDescription {
         self.direction = direction
         self.priority = priority
         self.status = status
+        self.confirmations = confirmations
         self.isPending = isPending
         self.height = height
         self.paymentId = paymentId

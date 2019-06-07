@@ -5,7 +5,6 @@ final class SendView: BaseScrollFlexViewWithBottomSection {
     let cardView: CardView
     let addressView: AddressView
     let paymentIdTextField: UITextField
-    let pastPaymentIDButton: PasteButton
     let paymentIdContainer: UIView
     let cryptoAmountTextField: FloatingLabelTextField
     let currenciesRowViev: UIView
@@ -26,7 +25,6 @@ final class SendView: BaseScrollFlexViewWithBottomSection {
         cardView = CardView()
         addressView = AddressView()
         paymentIdTextField = FloatingLabelTextField(placeholder: NSLocalizedString("Payment ID", comment: ""), isOptional: true)
-        pastPaymentIDButton = PasteButton(pastable: paymentIdTextField)
         paymentIdContainer = UIView()
         cryptoAmountTextField = FloatingLabelTextField(placeholder: "CRT")
         currenciesRowViev = UIView()
@@ -72,9 +70,8 @@ final class SendView: BaseScrollFlexViewWithBottomSection {
 
         paymentIdContainer.flex.direction(.row).backgroundColor(.clear).define { flex in
             flex.addItem(paymentIdTextField).grow(1).marginRight(10)
-            flex.addItem(pastPaymentIDButton).height(40).width(40)
         }
-
+        
         currenciesContainer.flex.direction(.row).justifyContent(.spaceBetween).define { flex in
             flex.addItem(cryptoAmountTextField).grow(1)
             flex.addItem(sendAllButton).height(40).marginLeft(10)

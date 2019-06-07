@@ -28,7 +28,12 @@ extension UIColor {
     static var greenMalachite: UIColor {
         return UIColor(red: 80, green: 130, blue: 229)
     }
-
+    static var incoming: UIColor {
+        return UIColor(red: 65, green: 244, blue: 122)
+    }
+    static var outgoing: UIColor {
+        return UIColor(red: 244, green: 66, blue: 66)
+    }
     static var lightBlueGrey: UIColor {
         return UIColor(red: 224, green: 233, blue: 246)
     }

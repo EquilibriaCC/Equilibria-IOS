@@ -203,7 +203,7 @@
 
 "save" = "Save";
 "copy" = "Copy";
-"full_balance" = "Full balance";
+"full_balance" = "Full Balance";
 "node_address" = "Node address";
 "node_port" = "Node port";
 "node_new" = "New node";

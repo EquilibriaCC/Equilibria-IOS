@@ -327,7 +327,7 @@ final class SendViewController: BaseViewController<SendView>, StoreSubscriber, Q
         let authController = AuthenticationViewController(store: store, authentication: AuthenticationImpl())
         let navController = UINavigationController(rootViewController: authController)
         let paymentID = contentView.paymentIdTextField.text ?? ""
-
+        
         authController.handler = { [weak self] in
             authController.dismiss(animated: true) {
                 self?.showSpinner(withTitle: NSLocalizedString("creating_transaction", comment: ""), callback: { alert in
@@ -384,7 +384,6 @@ final class SendViewController: BaseViewController<SendView>, StoreSubscriber, Q
     private func updatePaymentId(_ paymentId: String?) {
         contentView.paymentIdTextField.text = paymentId
     }
-
     private func updateAddress(_ address: String) {
         contentView.addressView.textView.text = address
     }

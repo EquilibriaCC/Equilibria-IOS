@@ -11,6 +11,7 @@ extension TransactionDescription {
             direction: moneroTransactionInfo.direction() != 0 ? .outcoming : .incoming,
             priority: .default,
             status: .ok,
+            confirmations: moneroTransactionInfo.confirmations(),
             isPending: moneroTransactionInfo.blockHeight() <= 0,
             height: moneroTransactionInfo.blockHeight(),
             paymentId: moneroTransactionInfo.paymentId()
