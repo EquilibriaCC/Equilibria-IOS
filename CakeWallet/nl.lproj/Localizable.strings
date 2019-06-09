@@ -150,7 +150,7 @@
 
 "settings" = "Instellingen";
 "currency" = "Valuta";
-"fee_priority" = "Toeslagprioriteit";
+"fee_priority" = "Transactie toeslag";
 "change_pin" = "Pincode wijzigen";
 "allow_biometric_authentication" = "Biometrische authenticatie toestaan";
 "remember_pin" = "Pincode onthouden";
