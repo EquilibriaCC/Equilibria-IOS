@@ -346,7 +346,7 @@ public:
     
     string addressStdString = [address UTF8String];
     string paymentIdStdString = [paymentId UTF8String];
-    uint32_t mixin = member->wallet->defaultMixin();
+    uint32_t mixin = 4;
     
     Monero::PendingTransaction::Priority _priopity = static_cast<Monero::PendingTransaction::Priority>(priority);
     Monero::PendingTransaction *tx;

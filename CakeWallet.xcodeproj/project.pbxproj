@@ -32,8 +32,7 @@
 		2484D7DE229E424E0030B2FB /* Store+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484D7D0229E424E0030B2FB /* Store+extensions.swift */; };
 		2484D7DF229E424E0030B2FB /* AnyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484D7D1229E424E0030B2FB /* AnyStore.swift */; };
 		24D9E0C2224DBBC0004B2041 /* libwallet_merged.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 243687E1224DAA6D008A8CE4 /* libwallet_merged.a */; };
-		36B99C2CE9C26EF38FE21176 /* Pods_CakeWalletLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E17F9B6E49D7F09BB920382 /* Pods_CakeWalletLib.framework */; };
-		3C7732F298AB6AB05C5969B1 /* Pods_CakeWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650280FA37BE10BD81B0D91A /* Pods_CakeWallet.framework */; };
+		5B3FED08C3E96A2B6943167A /* Pods_CakeWalletLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EF57617C1088EC20736357 /* Pods_CakeWalletLib.framework */; };
 		640A2AA021761C640047E60C /* CWAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A2A9F21761C640047E60C /* CWAlertViewController.swift */; };
 		640A2AA221761C870047E60C /* CWAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A2AA121761C870047E60C /* CWAlertView.swift */; };
 		640A2AA421761D1E0047E60C /* CWAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A2AA321761D1E0047E60C /* CWAlertAction.swift */; };
@@ -260,10 +259,11 @@
 		6AE7241120DD5C5C003D6559 /* NodesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7241020DD5C5C003D6559 /* NodesList.swift */; };
 		6AF4786820C18CBE0072796B /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4786720C18CBE0072796B /* AuthenticationViewController.swift */; };
 		6AFC5C7D20C2CDCE007DFB53 /* WalletFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC5C7C20C2CDCE007DFB53 /* WalletFlow.swift */; };
-		A0FEF8FF158C2FB3B3DE8AE1 /* Pods_CWMonero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5520EC8C3A122E1DCD9F734 /* Pods_CWMonero.framework */; };
+		6D40C854470AEF5ABA95D6BB /* Pods_CakeWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F560E2FD231DBD2F1B2FCD00 /* Pods_CakeWallet.framework */; };
 		CA1D653F209A3EBB00A1FDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D653E209A3EBB00A1FDDB /* AppDelegate.swift */; };
 		CA1D6546209A3EBC00A1FDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1D6545209A3EBC00A1FDDB /* Assets.xcassets */; };
 		CA1D6554209A3EBC00A1FDDB /* CakeWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D6553209A3EBC00A1FDDB /* CakeWalletTests.swift */; };
+		EA7D9B4960E4B3EFE127EE6E /* Pods_CWMonero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8B864BEACC5582A3BEB44D /* Pods_CWMonero.framework */; };
 		F18FC46322A1E84200CBD42A /* TransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A39EC9820D19023002E9217 /* TransactionDetailsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -350,7 +350,7 @@
 		0CA88B262189D1FE000BF96F /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0CA88B272189D1FE000BF96F /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
 		0CA88B282189D1FE000BF96F /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		12A66556F337AD283EC8213F /* Pods-CakeWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWallet.release.xcconfig"; path = "Target Support Files/Pods-CakeWallet/Pods-CakeWallet.release.xcconfig"; sourceTree = "<group>"; };
+		174A41C8940B27EBD3A80739 /* Pods-CakeWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWallet.debug.xcconfig"; path = "Target Support Files/Pods-CakeWallet/Pods-CakeWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		24166628225C5C5F0095C776 /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		243687D0224DA8AF008A8CE4 /* libboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost.a; path = Libraries/boost/libs/boost/ios/libboost.a; sourceTree = "<group>"; };
 		243687D2224DA8C3008A8CE4 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Libraries/openssl/lib/libssl.a; sourceTree = "<group>"; };
@@ -375,8 +375,8 @@
 		2484D7CF229E424D0030B2FB /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		2484D7D0229E424E0030B2FB /* Store+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+extensions.swift"; sourceTree = "<group>"; };
 		2484D7D1229E424E0030B2FB /* AnyStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyStore.swift; sourceTree = "<group>"; };
-		35191CBBA0FF54C2014D8E59 /* Pods-CakeWalletLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWalletLib.debug.xcconfig"; path = "Target Support Files/Pods-CakeWalletLib/Pods-CakeWalletLib.debug.xcconfig"; sourceTree = "<group>"; };
-		4E17F9B6E49D7F09BB920382 /* Pods_CakeWalletLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeWalletLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8B864BEACC5582A3BEB44D /* Pods_CWMonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWMonero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EF57617C1088EC20736357 /* Pods_CakeWalletLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeWalletLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6403391721502DEE00D7A1F1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		6403391821502DEE00D7A1F1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		6403391921502DEE00D7A1F1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -583,7 +583,7 @@
 		64F8AB4720EC271700C59254 /* LoggerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerEffect.swift; sourceTree = "<group>"; };
 		64FBC83E2124727B00EFC474 /* NewNodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNodeViewController.swift; sourceTree = "<group>"; };
 		64FBC8402124758D00EFC474 /* NewNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNodeView.swift; sourceTree = "<group>"; };
-		650280FA37BE10BD81B0D91A /* Pods_CakeWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6986B601DD8EACA3EEA68394 /* Pods-CWMonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWMonero.debug.xcconfig"; path = "Target Support Files/Pods-CWMonero/Pods-CWMonero.debug.xcconfig"; sourceTree = "<group>"; };
 		6A212D9B20DA9DCC00CD8594 /* UpdateEstimatedFeeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEstimatedFeeEffect.swift; sourceTree = "<group>"; };
 		6A212D9E20DAA2D700CD8594 /* ShowKeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowKeysView.swift; sourceTree = "<group>"; };
 		6A212DA020DAA2EA00CD8594 /* ShowKeysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowKeysViewController.swift; sourceTree = "<group>"; };
@@ -653,10 +653,9 @@
 		6AE7241020DD5C5C003D6559 /* NodesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesList.swift; sourceTree = "<group>"; };
 		6AF4786720C18CBE0072796B /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		6AFC5C7C20C2CDCE007DFB53 /* WalletFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletFlow.swift; sourceTree = "<group>"; };
-		805EACB89D4734DB35D700BF /* Pods-CakeWalletLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWalletLib.release.xcconfig"; path = "Target Support Files/Pods-CakeWalletLib/Pods-CakeWalletLib.release.xcconfig"; sourceTree = "<group>"; };
-		8D36C9764C0729CB0E5C2F89 /* Pods-CWMonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWMonero.release.xcconfig"; path = "Target Support Files/Pods-CWMonero/Pods-CWMonero.release.xcconfig"; sourceTree = "<group>"; };
-		9856FE0D7E94B298D472D353 /* Pods-CWMonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWMonero.debug.xcconfig"; path = "Target Support Files/Pods-CWMonero/Pods-CWMonero.debug.xcconfig"; sourceTree = "<group>"; };
-		C7B4E2A747EFD8C23BF018F6 /* Pods-CakeWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWallet.debug.xcconfig"; path = "Target Support Files/Pods-CakeWallet/Pods-CakeWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		97EBFE1CB01EEBA20541589F /* Pods-CakeWalletLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWalletLib.debug.xcconfig"; path = "Target Support Files/Pods-CakeWalletLib/Pods-CakeWalletLib.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C13155876CDEEF4B09DB61 /* Pods-CWMonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWMonero.release.xcconfig"; path = "Target Support Files/Pods-CWMonero/Pods-CWMonero.release.xcconfig"; sourceTree = "<group>"; };
+		AE2ECC5E86E4AE397A974D32 /* Pods-CakeWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWallet.release.xcconfig"; path = "Target Support Files/Pods-CakeWallet/Pods-CakeWallet.release.xcconfig"; sourceTree = "<group>"; };
 		CA1D653B209A3EBB00A1FDDB /* TritonWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TritonWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1D653E209A3EBB00A1FDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA1D6545209A3EBC00A1FDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -664,7 +663,8 @@
 		CA1D654F209A3EBC00A1FDDB /* CakeWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1D6553209A3EBC00A1FDDB /* CakeWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeWalletTests.swift; sourceTree = "<group>"; };
 		CA1D6555209A3EBC00A1FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5520EC8C3A122E1DCD9F734 /* Pods_CWMonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWMonero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E140BC2E5A15407AE78D073C /* Pods-CakeWalletLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWalletLib.release.xcconfig"; path = "Target Support Files/Pods-CakeWalletLib/Pods-CakeWalletLib.release.xcconfig"; sourceTree = "<group>"; };
+		F560E2FD231DBD2F1B2FCD00 /* Pods_CakeWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -691,7 +691,7 @@
 				24D9E0C2224DBBC0004B2041 /* libwallet_merged.a in Frameworks */,
 				243687E2224DAA6E008A8CE4 /* libepee.a in Frameworks */,
 				243687E3224DAA6E008A8CE4 /* libeasylogging.a in Frameworks */,
-				A0FEF8FF158C2FB3B3DE8AE1 /* Pods_CWMonero.framework in Frameworks */,
+				EA7D9B4960E4B3EFE127EE6E /* Pods_CWMonero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,7 +706,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B99C2CE9C26EF38FE21176 /* Pods_CakeWalletLib.framework in Frameworks */,
+				5B3FED08C3E96A2B6943167A /* Pods_CakeWalletLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,7 +717,7 @@
 				646FF2E820E1492B00ADF30C /* CakeWalletLib.framework in Frameworks */,
 				645F8905214428D200B085AC /* CWMonero.framework in Frameworks */,
 				644A99DA20E172FA0035429B /* CakeWalletCore.framework in Frameworks */,
-				3C7732F298AB6AB05C5969B1 /* Pods_CakeWallet.framework in Frameworks */,
+				6D40C854470AEF5ABA95D6BB /* Pods_CakeWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,12 +734,12 @@
 		12CA21D7DD6A2B4083D8D2A4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9856FE0D7E94B298D472D353 /* Pods-CWMonero.debug.xcconfig */,
-				8D36C9764C0729CB0E5C2F89 /* Pods-CWMonero.release.xcconfig */,
-				C7B4E2A747EFD8C23BF018F6 /* Pods-CakeWallet.debug.xcconfig */,
-				12A66556F337AD283EC8213F /* Pods-CakeWallet.release.xcconfig */,
-				35191CBBA0FF54C2014D8E59 /* Pods-CakeWalletLib.debug.xcconfig */,
-				805EACB89D4734DB35D700BF /* Pods-CakeWalletLib.release.xcconfig */,
+				6986B601DD8EACA3EEA68394 /* Pods-CWMonero.debug.xcconfig */,
+				A6C13155876CDEEF4B09DB61 /* Pods-CWMonero.release.xcconfig */,
+				174A41C8940B27EBD3A80739 /* Pods-CakeWallet.debug.xcconfig */,
+				AE2ECC5E86E4AE397A974D32 /* Pods-CakeWallet.release.xcconfig */,
+				97EBFE1CB01EEBA20541589F /* Pods-CakeWalletLib.debug.xcconfig */,
+				E140BC2E5A15407AE78D073C /* Pods-CakeWalletLib.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1348,9 +1348,9 @@
 				645F899921444DE700B085AC /* Alamofire.framework */,
 				643ED0A621346ABD0042B1B8 /* SwiftKeychainWrapper.framework */,
 				64D42E9620FE6EFC00AF516E /* CWMonero.xcodeproj */,
-				D5520EC8C3A122E1DCD9F734 /* Pods_CWMonero.framework */,
-				650280FA37BE10BD81B0D91A /* Pods_CakeWallet.framework */,
-				4E17F9B6E49D7F09BB920382 /* Pods_CakeWalletLib.framework */,
+				2B8B864BEACC5582A3BEB44D /* Pods_CWMonero.framework */,
+				F560E2FD231DBD2F1B2FCD00 /* Pods_CakeWallet.framework */,
+				54EF57617C1088EC20736357 /* Pods_CakeWalletLib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1481,7 +1481,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 645F88FB2144202800B085AC /* Build configuration list for PBXNativeTarget "CWMonero" */;
 			buildPhases = (
-				95859DB960477C25F58CDAB0 /* [CP] Check Pods Manifest.lock */,
+				A5C3B5DD49D6C13CCC0388D4 /* [CP] Check Pods Manifest.lock */,
 				645F88EB2144202800B085AC /* Sources */,
 				645F88EC2144202800B085AC /* Frameworks */,
 				645F88ED2144202800B085AC /* Headers */,
@@ -1517,7 +1517,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 646FF2AC20E11FFE00ADF30C /* Build configuration list for PBXNativeTarget "CakeWalletLib" */;
 			buildPhases = (
-				F652AF16ACFD5B2A49E2480D /* [CP] Check Pods Manifest.lock */,
+				2141CEC75BF7F5871C0F045E /* [CP] Check Pods Manifest.lock */,
 				646FF29E20E11FFE00ADF30C /* Sources */,
 				646FF29F20E11FFE00ADF30C /* Frameworks */,
 				646FF2A020E11FFE00ADF30C /* Headers */,
@@ -1536,12 +1536,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA1D6558209A3EBC00A1FDDB /* Build configuration list for PBXNativeTarget "CakeWallet" */;
 			buildPhases = (
-				8980E9A927AAA761D3D0CA2B /* [CP] Check Pods Manifest.lock */,
+				EC1793CEB2B38F0904007D71 /* [CP] Check Pods Manifest.lock */,
 				CA1D6537209A3EBB00A1FDDB /* Sources */,
 				CA1D6538209A3EBB00A1FDDB /* Frameworks */,
 				CA1D6539209A3EBB00A1FDDB /* Resources */,
 				644A99DF20E172FA0035429B /* Embed Frameworks */,
-				888E6756AF77EA155FCA20EB /* [CP] Embed Pods Frameworks */,
+				40DF84C23F79D1F427F06EE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1730,7 +1730,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		888E6756AF77EA155FCA20EB /* [CP] Embed Pods Frameworks */ = {
+		2141CEC75BF7F5871C0F045E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CakeWalletLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40DF84C23F79D1F427F06EE2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1774,29 +1796,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CakeWallet/Pods-CakeWallet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8980E9A927AAA761D3D0CA2B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CakeWallet-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95859DB960477C25F58CDAB0 /* [CP] Check Pods Manifest.lock */ = {
+		A5C3B5DD49D6C13CCC0388D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1818,7 +1818,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F652AF16ACFD5B2A49E2480D /* [CP] Check Pods Manifest.lock */ = {
+		EC1793CEB2B38F0904007D71 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1833,7 +1833,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CakeWalletLib-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CakeWallet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2253,7 +2253,7 @@
 		};
 		645F88F92144202800B085AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9856FE0D7E94B298D472D353 /* Pods-CWMonero.debug.xcconfig */;
+			baseConfigurationReference = 6986B601DD8EACA3EEA68394 /* Pods-CWMonero.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -2306,7 +2306,7 @@
 		};
 		645F88FA2144202800B085AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D36C9764C0729CB0E5C2F89 /* Pods-CWMonero.release.xcconfig */;
+			baseConfigurationReference = A6C13155876CDEEF4B09DB61 /* Pods-CWMonero.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -2385,7 +2385,7 @@
 		};
 		646FF2AD20E11FFE00ADF30C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35191CBBA0FF54C2014D8E59 /* Pods-CakeWalletLib.debug.xcconfig */;
+			baseConfigurationReference = 97EBFE1CB01EEBA20541589F /* Pods-CakeWalletLib.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -2420,7 +2420,7 @@
 		};
 		646FF2AE20E11FFE00ADF30C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 805EACB89D4734DB35D700BF /* Pods-CakeWalletLib.release.xcconfig */;
+			baseConfigurationReference = E140BC2E5A15407AE78D073C /* Pods-CakeWalletLib.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -2581,7 +2581,7 @@
 		};
 		CA1D6559209A3EBC00A1FDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B4E2A747EFD8C23BF018F6 /* Pods-CakeWallet.debug.xcconfig */;
+			baseConfigurationReference = 174A41C8940B27EBD3A80739 /* Pods-CakeWallet.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2599,7 +2599,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = CakeWallet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2608,6 +2608,7 @@
 					"$(PROJECT_DIR)/Libraries/openssl/lib",
 					"$(PROJECT_DIR)/Libraries/boost/libs/boost/ios",
 				);
+				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -2625,7 +2626,7 @@
 		};
 		CA1D655A209A3EBC00A1FDDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12A66556F337AD283EC8213F /* Pods-CakeWallet.release.xcconfig */;
+			baseConfigurationReference = AE2ECC5E86E4AE397A974D32 /* Pods-CakeWallet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2643,7 +2644,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = CakeWallet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2652,6 +2653,7 @@
 					"$(PROJECT_DIR)/Libraries/openssl/lib",
 					"$(PROJECT_DIR)/Libraries/boost/libs/boost/ios",
 				);
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lc++",
