@@ -26,7 +26,7 @@ extension UIColor {
     }
 
     static var greenMalachite: UIColor {
-        return UIColor(red: 80, green: 130, blue: 229)
+        return UIColor(red: 212, green: 175, blue: 55)
     }
     static var incoming: UIColor {
         return UIColor(red: 65, green: 244, blue: 122)
@@ -39,7 +39,7 @@ extension UIColor {
     }
 
     static var tritonGreen: UIColor {
-        return UIColor(hex: 0x5182e5)
+        return UIColor(hex: 0xd4af37)
     }
 
     static var tritonGreenDark: UIColor {
