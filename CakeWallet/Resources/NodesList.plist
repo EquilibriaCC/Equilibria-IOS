@@ -28,5 +28,13 @@
 		<key>uri</key>
 		<string>tokyo.xtri.network:9231</string>
 	</dict>
+	<dict>
+		<key>uri</key>
+		<string>toronto.xtri.network:9231</string>
+	</dict>
+	<dict>
+		<key>uri</key>
+		<string>dallas.xtri.network:9231</string>
+	</dict>
 </array>
 </plist>
